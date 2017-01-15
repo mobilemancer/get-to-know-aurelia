@@ -47,17 +47,16 @@ Temporary Items
 .apdisk
 *.dll
 *.pdb
-1/obj/Debug/netcoreapp1.0/.SDKVersion
-1/obj/Debug/netcoreapp1.0/dotnet-compile-csc.rsp
+.SDKVersion
+dotnet-compile-csc.rsp
 *.rsp
-1/wwwroot/scripts/app-bundle.js
 *.map
-1/wwwroot/scripts/vendor-bundle.js
+vendor-bundle.js
 *.SDKVersion
 *.rsp
-1 - CLI/bin/Debug/netcoreapp1.0/1.deps.json
-1 - CLI/bin/Debug/netcoreapp1.0/1.runtimeconfig.dev.json
-1 - CLI/bin/Debug/netcoreapp1.0/1.runtimeconfig.json
+1.deps.json
+1.runtimeconfig.dev.json
+1.runtimeconfig.json
 *.IncrementalCache
-1 - CLI/obj/Debug/netcoreapp1.0/dotnet-compile.assemblyinfo.cs
-2 - Feature Examples/wwwroot/scripts/app-bundle.js
+dotnet-compile.assemblyinfo.cs
+app-bundle.js
