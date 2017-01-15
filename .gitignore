@@ -45,3 +45,13 @@ $RECYCLE.BIN/
 Network Trash Folder
 Temporary Items
 .apdisk
+*.dll
+*.pdb
+1/obj/Debug/netcoreapp1.0/.SDKVersion
+1/obj/Debug/netcoreapp1.0/dotnet-compile-csc.rsp
+*.rsp
+1/wwwroot/scripts/app-bundle.js
+*.map
+1/wwwroot/scripts/vendor-bundle.js
+*.SDKVersion
+*.rsp
