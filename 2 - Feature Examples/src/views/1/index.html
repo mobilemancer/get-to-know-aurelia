@@ -1,0 +1,33 @@
+<template>
+    <h1>${header}</h1>
+
+    <h2>One-Way and One-Time</h2>
+    <div>
+        <span>One-Time: </span><span textcontent.one-time="counter"></span>
+    </div>
+
+    <div>
+        <span>One-Way: </span><span textcontent.one-way="counter"></span>
+    </div>
+
+    <h2>Two-Way</h2>
+    <div>
+        <span>Two-Way: </span><span contenteditable="true" textcontent.two-way="message"></span>
+    </div>
+    <div>
+        <span>Two-Way: </span><span contenteditable="true" textcontent.two-way="message"></span>
+    </div>
+
+    <h2>Bind</h2>
+    <div>
+        <span><button click.delegate="enableCounter()">Enable Counter</button></span>
+        <span>Counter: </span><span if.bind="displayCounter" textcontent.bind="counter"></span>
+    </div>
+    <div>
+        <span>Message: </span><span contenteditable="true" textcontent.bind="message"></span>
+    </div>
+    <div>
+        <span>Message: </span><span contenteditable="true" textcontent.bind="message"></span>
+    </div>
+
+</template>

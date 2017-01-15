@@ -55,3 +55,8 @@ Temporary Items
 1/wwwroot/scripts/vendor-bundle.js
 *.SDKVersion
 *.rsp
+1 - CLI/bin/Debug/netcoreapp1.0/1.deps.json
+1 - CLI/bin/Debug/netcoreapp1.0/1.runtimeconfig.dev.json
+1 - CLI/bin/Debug/netcoreapp1.0/1.runtimeconfig.json
+*.IncrementalCache
+1 - CLI/obj/Debug/netcoreapp1.0/dotnet-compile.assemblyinfo.cs
