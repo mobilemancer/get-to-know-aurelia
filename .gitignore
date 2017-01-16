@@ -39,6 +39,26 @@ $RECYCLE.BIN/
 .Trashes
 .VolumeIcon.icns
 
+### VisualStudioCode ###
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.vscode/symbols.json
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+
 # Directories potentially created on remote AFP share
 .AppleDB
 .AppleDesktop
@@ -61,3 +81,4 @@ Temporary Items
 *.IncrementalCache
 1 - CLI/obj/Debug/netcoreapp1.0/dotnet-compile.assemblyinfo.cs
 2 - Feature Examples/wwwroot/scripts/app-bundle.js
+node_modules/
