@@ -82,3 +82,6 @@ Temporary Items
 1 - CLI/obj/Debug/netcoreapp1.0/dotnet-compile.assemblyinfo.cs
 2 - Feature Examples/wwwroot/scripts/app-bundle.js
 node_modules/
+*/symbols.json
+*/app-bundle.json
+*/vendor-bundle.js
