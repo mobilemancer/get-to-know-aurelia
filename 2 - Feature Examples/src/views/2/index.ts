@@ -1,3 +1,3 @@
 export class Index {
-    public message = "Hello SweTugg!";
+    public message = "Hello SWETUGG!";
 }
