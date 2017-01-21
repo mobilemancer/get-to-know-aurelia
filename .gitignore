@@ -39,6 +39,26 @@ $RECYCLE.BIN/
 .Trashes
 .VolumeIcon.icns
 
+### VisualStudioCode ###
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.vscode/symbols.json
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+
 # Directories potentially created on remote AFP share
 .AppleDB
 .AppleDesktop
@@ -59,4 +79,8 @@ vendor-bundle.js
 1.runtimeconfig.json
 *.IncrementalCache
 dotnet-compile.assemblyinfo.cs
-app-bundle.js
+node_modules/
+*/**/symbols.json
+*/**/app-bundle.json
+*/**/vendor-bundle.js
+*/**/*.runtimeconfig.dev.json

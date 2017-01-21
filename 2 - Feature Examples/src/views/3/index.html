@@ -1,0 +1,12 @@
+<template>
+    <require from="./../../resources/value-converters/emojifier"></require>
+    <h1>${header}</h1>
+    <div>
+        <div>
+            Skriv något: <input type="text" value.bind="message"><br>
+        </div>
+        <div>
+            <span>Emojified: </span><span innerhtml.bind="message | emojifier"></span>
+        </div>
+    </div>
+</template>
