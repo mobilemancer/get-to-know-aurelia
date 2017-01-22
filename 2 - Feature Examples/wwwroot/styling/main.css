@@ -1,7 +1,53 @@
 body {
   font-size: 48px;
+  font-family: Tahoma, Geneva, sans-serif;
 }
 
 input[type="text"] {
   font-size: 48px;
+}
+
+.block {
+  transition: background-color 1000ms linear;
+  color: white;
+  padding: 32px;
+  display: inline-block;
+  width: 300px;
+  height: 300px;
+}
+
+nav-bar h1 {
+  margin-bottom: 0px;
+}
+
+nav {
+  float: right;
+}
+
+nav ul {
+  -webkit-padding-start: 0px;
+}
+
+nav ul li {
+  list-style-type: none;
+  float: left;
+  font-size: 32px;
+}
+
+li a {
+  display: block;
+  color: #9775aa;
+  text-align: center;
+  padding: 8px 8px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #764b8e;
+  color: #9775aa;
+}
+
+li a:visited,
+li a:focus {
+  color: #9775aa;
 }
