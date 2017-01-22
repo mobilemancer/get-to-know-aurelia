@@ -84,5 +84,3 @@ node_modules/
 */**/app-bundle.json
 */**/vendor-bundle.js
 */**/*.runtimeconfig.dev.json
-2 - Feature Examples/wwwroot/scripts/app-bundle.js
-vendor-bundle.js
