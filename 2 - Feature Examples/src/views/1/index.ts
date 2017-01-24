@@ -2,6 +2,7 @@ export class Index {
     public header = "Data-Binding";
     public counter = 0;
     public message = "Hello!";
+    public message2 = "Hello Again!";
     public displayCounter = false;
 
     constructor() {

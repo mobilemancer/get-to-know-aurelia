@@ -1,4 +1,4 @@
 export class Index {
-    public header = "Hello SWETUGG!";
+    public header = "Hello SWENUG!";
     public message = "";
 }

@@ -8,6 +8,10 @@ export class NavBar {
   constructor(private router: Router) { }
 
   created() {
-    this.header = this.router.currentInstruction.config.title;
+    this.header = this.router.currentInstruction.config.title || this.router.parent.currentInstruction.config.title;
+    // if (!!this.router.currentInstruction) {
+    // } else {
+    //   this.header = this.router.parent.currentInstruction.config.title;
+    // }
   }
 }

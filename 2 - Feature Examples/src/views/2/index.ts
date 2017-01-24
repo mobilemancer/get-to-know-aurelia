@@ -1,3 +1,4 @@
 export class Index {
-    public message = "Hello SWETUGG!";
+    public header = "Custom Attributes";
+    public message = "Hello SWENUG!";
 }
