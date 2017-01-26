@@ -84,3 +84,8 @@ node_modules/
 */**/app-bundle.json
 */**/vendor-bundle.js
 */**/*.runtimeconfig.dev.json
+2 - Feature Examples/.vscode/symbols.json
+2 - Feature Examples/bin/Debug/netcoreapp1.0/2 - Feature Examples.runtimeconfig.dev.json
+2 - Feature Examples/wwwroot/scripts/app-bundle.js
+2 - Feature Examples/wwwroot/scripts/vendor-bundle.js
+2 - Feature Examples/wwwroot/scripts/vendor-bundle.js
