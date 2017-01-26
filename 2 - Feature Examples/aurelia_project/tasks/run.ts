@@ -18,16 +18,11 @@ let serve = gulp.series(
   build,
   done => {
     browserSync({
-      online: false,
       open: false,
       port: 9000,
       logLevel: 'silent',
-      server: {
-        baseDir: ['.'],
-        middleware: [historyApiFallback(), function(req, res, next) {
-          res.setHeader('Access-Control-Allow-Origin', '*');
-          next();
-        }]
+      proxy: {
+        target: 'localhost:5000'
       }
     }, function (err, bs) {
       let urls = bs.options.get('urls').toJS();
