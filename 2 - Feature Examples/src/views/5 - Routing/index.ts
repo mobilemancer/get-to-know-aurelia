@@ -10,8 +10,8 @@ export class Index {
         config.title = 'Child router';
         config.map([
             { route: '', moduleId: 'views/6/index' },
-            { route: '1', name: '1', moduleId: 'views/1/index', title: 'Data Binding', nav: 1 },
-            { route: '2', name: '2', moduleId: 'views/2/index', title: 'Custom Attributes', nav: 2 },
+            { route: '1', name: '1', moduleId: 'views/1 - Data Binding/index', title: 'Data Binding', nav: 1 },
+            { route: '2', name: '2', moduleId: 'views/2 - Custom Attributes/index', title: 'Custom Attributes', nav: 2 },
             { route: '3', name: '3', moduleId: 'views/3/index', title: 'Value Converters', nav: 3 },
             { route: '4', name: '4', moduleId: 'views/4/index', title: 'Messaging', nav: 4 },
             { route: '6', name: '6', moduleId: 'views/6/index', title: 'Routing', nav: 5 },
