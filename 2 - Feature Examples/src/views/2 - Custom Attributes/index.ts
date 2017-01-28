@@ -1,4 +1,4 @@
 export class Index {
     public header = "Custom Attributes";
-    public message = "Hello SWENUG!";
+    public message = "Hello SWETUGG!";
 }

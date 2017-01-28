@@ -23,6 +23,7 @@ namespace ConsoleApplication
                 app.UseDeveloperExceptionPage();
             }
 
+            // Add this to serve static files
             app.UseDefaultFiles();
             app.UseStaticFiles();
         }
