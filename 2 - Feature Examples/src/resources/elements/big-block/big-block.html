@@ -1,0 +1,10 @@
+<template>
+  <div class="block" ref="thisElement">
+    <div>
+      <h2>${name}</h2>
+      <!--css.bind & style.bind can bind an object or string, css can also take string interpolation-->
+      <button click.delegate="blockClicked()" css="background-color: ${color};" style.bind="buttonColor">Click me!</button>
+    </div>
+    <slot></slot>
+  </div>
+</template>

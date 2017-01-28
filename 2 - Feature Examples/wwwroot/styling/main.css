@@ -65,6 +65,7 @@ li a:focus {
 
 big-block .block {
   transition: background-color 1000ms linear;
+  border: 1px solid darkslateblue;
   color: white;
   padding: 32px;
   display: inline-block;
