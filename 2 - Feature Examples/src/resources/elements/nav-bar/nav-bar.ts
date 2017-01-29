@@ -4,6 +4,7 @@ import { Router } from 'aurelia-router';
 
 @autoinject
 export class NavBar {
+
   // get => computed! Dirty checked 8 times/s... OBS! Make sure to throttle 
   // @computedFrom('router.currentInstruction.config.title')
   public get header(): string {

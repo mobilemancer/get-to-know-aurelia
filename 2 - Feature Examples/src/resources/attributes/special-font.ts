@@ -1,5 +1,6 @@
 import { autoinject } from 'aurelia-framework';
 
+// autoinject - Injects instantiated classes from the DI container
 @autoinject()
 export class SpecialFontCustomAttribute {
 
