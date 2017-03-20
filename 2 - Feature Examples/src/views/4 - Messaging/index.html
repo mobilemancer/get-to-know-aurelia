@@ -2,14 +2,14 @@
     <h1>${header}</h1>
 
     <!--'ref' used to get a reference to a HTML Element-->
-    <div class="block" ref="block1">
-        <h2>Block 1</h2>
-        <button click.trigger="block1Clicked()">Click me!</button>
+    <div class="block left" click.trigger="c3poClicked()" style="color:black">
+        <img src="images/c3po.png" alt="">
+        <div class="transmition" ref="luke_says"></div>
     </div>
 
-    <div class="block" ref="block2">
-        <h2>Block 2</h2>
-        <button click.delegate="block2Clicked()">Click me too!</button>
+    <div class="block right" click.trigger="lukeClicked()" style="color:black">
+        <img src="images/luke.png" alt="">
+        <div class="transmition" ref="c3po_says"></div>
     </div>
 
 </template>
